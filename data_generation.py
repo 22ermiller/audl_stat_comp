@@ -3,9 +3,6 @@ import numpy as np
 import requests
 import re
 import urllib.parse
-import matplotlib.pyplot as plt
-import seaborn as sns
-from bs4 import BeautifulSoup
 import re
 import math
 
