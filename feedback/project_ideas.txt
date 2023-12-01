@@ -1,0 +1,19 @@
+Below are my 3 ideas for the project:
+
+1. How does the performance of professional sports teams compare across regions? For this I would explore trends in success in different professional sports leagues across different locations in the united states (analyze which locations performed "better")
+https://rapidapi.com/tipsters/api/sportscore1
+
+2. Explore trends in popularity of movies over time. With this we could explore what genres were more popular at different times, which genres in general won more important awards in the movie industry etc.
+https://rapidapi.com/SAdrian/api/moviesdatabase/
+
+3. Use professional ultimate frisbee data to explore how the stats of top performers in the league have changed over time. Professional Frisbee is relatively young and so it would be interesting to see how quickly stats for top performers are changing with increased popularity of the sport.
+
+Feedback:
+
+1. Which sport specifically are you looking at or are you doing many different sports? Also, how are you planning to measure success
+2. This one looks good I suspect it may just be difficult to find all the different awards data
+3. I would love to see this one! I play a lot of ultimate and hopefully you can find enough professional data since it is such a new sport.
+
+I think if you want to do sports, then doing ultimate Frisbee is more interesting because, like you said, it's newer. I also like the movies one, though it's a bit unclear whether you're looking at the popularity of like individual movies over time (like when do audiences stop watching them) or of you're taking each movie as just one data point. Either would be interesting.
+
+Based on this feedback I chose to do option 3. I'm really interested in ultimate frisbee and it feels like a field where not much data analysis has been done. The data is free and easily accesible through the AUDL API.
