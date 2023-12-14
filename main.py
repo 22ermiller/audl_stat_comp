@@ -12,6 +12,7 @@ df = pd.read_csv("player_season_stats.csv")
 
 st.subheader("Exploring Offensive Efficiency")
 st.write("In this section, use the Year and Team selector to explore how the distribution of metrics that explore offensive efficiency have changed over time. View league wide trends by selecting all teams, or just look at trends within your favorite team. (Keep in mind, this data represents player data across a whole season, so outliers represent a value for a single player, not full game stats for a single team)")
+st.write("For viewers unfamiliar with the AUDL, along with other teams, I would explore the empire as they've won 3 out of the last 4 championships (as of 2023).")
 
 left_column, right_column = st.columns(2)
 
@@ -76,7 +77,7 @@ else:
                   },
                   title = "Scatter Plot of Throwaways vs Assists For Specific Years")
     right_column2.plotly_chart(fig)
-    right_column2.write("**Higher volume players get more assists, but also have more throwaways. A steeper slope on this graph would indicate more throwaways per assist and thus a less efficient player. Trends for this graph seem to be different team by team.")
+    right_column2.write("**Higher volume players get more assists, but also have more throwaways. A steeper slope on this graph would indicate less throwaways per assist and thus a more efficient player. Trends for this graph seem to be different team by team.")
 
 
 
