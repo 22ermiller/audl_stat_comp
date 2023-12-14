@@ -1,3 +1,10 @@
 Original Post SHA: 7a9d3b9d89a5baa7b0479949c1abbee38554f9a9
 
 Feedback Received:
+1. Include questions to ask when exploring random metrics in the 2nd part of the post to help walk readers through the EDA a little better.
+2. Adjust the banner header to the post
+3. The title of a graph is getting cutoff, so make sure it's all visible
+4. Do a better job of explaining how metrics translate to onfield play. 
+
+Adjustments made:
+I chose a different image for the banner that would be more visually appealing for readers. I also added questions to think about before the 2nd part of the post. This would hopefully direct readers' minds a little better. I also made sure all graphics were fully visible. 
