@@ -2,3 +2,9 @@ Original data_generation blog post SHA: 1d9d30388f859a8bbad887fa33833f511ddd406b
 
 Feedback:
 
+1. Fix banner image to make it more relevant to the topic
+2. Break up text a little so it's easier to read.
+3. Add some visuals on how data was collected besides code chunks to make it more engaging.
+
+Improvements made:
+I created a flowchart that illustrates the steps I needed to take to get the data formatted correctly. I also broke the post up into more segments to make reading a little easier and adjusted the banner photo. 
