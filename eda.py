@@ -83,6 +83,7 @@ sns.lmplot(data=filtered_years_df, x='throwaways', y='assists', hue='year', scat
 plt.title('Scatter Plot of Throwaways vs Assists For Specific Years')
 plt.xlabel('Throwaways')
 plt.ylabel('Assists')
+plt.tight_layout()
 plt.savefig('throwaway_v_assists.png')
 # Question 6: How have pulls changed over the years
 
