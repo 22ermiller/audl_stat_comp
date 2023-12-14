@@ -21,13 +21,16 @@ players = r.json()
 players_data = players['data']  # Access the 'data' key from the JSON response
 players_list = []
 for player in players_data:
-    player_info = {
-        'id': player['playerID'],
-        'firstName': player['firstName'],
-        'lastName': player['lastName'],
-        'year': player['teams'][0]['year'] if player['teams'] else None  # Accessing the 'year' within 'teams' list
-    }
-    players_list.append(player_info)
+    teams = player['teams']
+    for team in teams:
+        player_info = {
+            'id': player['playerID'],
+            'firstName': player['firstName'],
+            'lastName': player['lastName'],
+            'year': team['year'] if player['teams'] else None,  # Accessing the 'year' within 'teams' list
+            'team': team['teamID']
+        }
+        players_list.append(player_info)
 
 players_df = pd.DataFrame(players_list)
 
@@ -76,5 +79,7 @@ for i in range(num_batches):
 
 
 final_df = stats_df.drop(columns = 'player')
+
+final_df = pd.merge(final_df, players_df, how='left', left_on=['year', 'firstName', 'lastName'],right_on=['year', 'firstName', 'lastName'])
 
 final_df.to_csv('player_season_stats.csv', index = False)
