@@ -12,7 +12,7 @@ df = pd.read_csv("player_season_stats.csv")
 
 st.subheader("Exploring Offensive Efficiency")
 st.write("In this section, use the Year and Team selector to explore how the distribution of metrics that explore offensive efficiency have changed over time. View league wide trends by selecting all teams, or just look at trends within your favorite team. (Keep in mind, this data represents player data across a whole season, so outliers represent a value for a single player, not full game stats for a single team)")
-st.write("For viewers unfamiliar with the AUDL, along with other teams, I would explore the empire as they've won 3 out of the last 4 championships (as of 2023).")
+st.write("For viewers unfamiliar with the AUDL, along with other teams, I would explore the empire as they've won 3 out of the last 4 championships (as of 2023). Keep in mind also, there has been a lot of turnover in AUDL franchises over that last 10 years. So if a team has no data for a certain year, it is most likely due to the fact that they weren't a part of the league that year, not missing data.")
 
 left_column, right_column = st.columns(2)
 
