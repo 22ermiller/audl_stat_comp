@@ -173,3 +173,12 @@ else:
 # Add markers (points) at each data point
     fig.update_traces(mode='lines+markers', marker=dict(size=10))
     right_column3.plotly_chart(fig)
+
+st.write("If you are interesting in learning more about how this data was collected and how I explored it initally click on the following links that lead to my blog posts:")
+
+st.link_button("Data Generation Blog Post", "https://22ermiller.github.io/blog/2023/12/01/project-data-generation.html")
+st.link_button("EDA Blog Post","https://22ermiller.github.io/blog/2023/12/11/project-eda.html")
+
+st.write("Source code is all located at the following github repository:")
+
+st.link_button("GitHub Repository","https://github.com/22ermiller/audl_stat_comp/tree/main")
