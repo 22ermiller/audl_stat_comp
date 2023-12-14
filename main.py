@@ -176,9 +176,14 @@ else:
 
 st.write("If you are interesting in learning more about how this data was collected and how I explored it initally click on the following links that lead to my blog posts:")
 
-st.link_button("Data Generation Blog Post", "https://22ermiller.github.io/blog/2023/12/01/project-data-generation.html")
-st.link_button("EDA Blog Post","https://22ermiller.github.io/blog/2023/12/11/project-eda.html")
+st.markdown(f'''
+<a href={"https://22ermiller.github.io/blog/2023/12/01/project-data-generation.html"}><button style="background-color:GreenYellow;">Data Generation Blog Post</button></a>
+''',
+unsafe_allow_html=True)
 
-st.write("Source code is all located at the following github repository:")
+#st.link_button("Data Generation Blog Post", "https://22ermiller.github.io/blog/2023/12/01/project-data-generation.html")
+#st.link_button("EDA Blog Post","https://22ermiller.github.io/blog/2023/12/11/project-eda.html")
 
-st.link_button("GitHub Repository","https://github.com/22ermiller/audl_stat_comp/tree/main")
+#st.write("Source code is all located at the following github repository:")
+
+#st.link_button("GitHub Repository","https://github.com/22ermiller/audl_stat_comp/tree/main")
