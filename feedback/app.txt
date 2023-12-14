@@ -1,0 +1,12 @@
+Creation process: I first started by inserting all the figures I made in the EDA into the app. And then I added filters the user could adjust such as a year selector and a team selector.
+The hardest part was getting the app formatted in a visually appealing way. At first everything is put in 1 row with pretty large margins. I had to learn how to use columns as containers to fit
+everything in a neater way. It was also a struggle trying to know how much to guide the user of the app vs just letting them explore on their own.
+
+Feedback:
+1. Make recommendations on which teams to explore for users who don't know much about the AUDL
+2. For the 2nd part of the app, put separate lines for each team so metrics can be compared not only year over year but also team by team.
+3. Change colors to be more visually appealing. 
+
+Adjustments made:
+There were some typos that I had to fix, and I also added some more direction for the user just because not very many people are familiar with the AUDL. I also used the suggestion to separate lines in
+2nd part of the app which added a much more interesting element to the app. I set the color pallette to Set2 as well and it softened things up a bit. 
